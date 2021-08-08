@@ -1,3 +1,8 @@
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import pytest
+from selenium import webdriver
+@pytest.fixture()
+def browser():
+    driver = webdriver.Chrome()
+    yield driver
+if __name__ == '__main__':
+    1
