@@ -66,21 +66,15 @@ class TestLogin:
                              {"one":'   ',"two":22,"three":33,"code":"!未设置荣誉名称"},
                               ])
     def test_05(self,option):
-        try:
             self.index.lists(option["one"],option["two"],option["three"])
             res = self.Base.text((By.CSS_SELECTOR,'.row-item>span:nth-child(4)'))
-            assert  res == option["code"]
-        except Exception as fail:
-            print(fail)
-
+            assert res == option["code"]
     @allure.title("新增荣誉-荣誉等级错误")
     @pytest.mark.parametrize('option',[{"one": 11,"two":'',"three": 33,"code":"!未输入荣誉等级"}])
     def test_06(self, option):
             self.index.lists(option["one"], option["two"], option["three"])
-            sleep(6)
             res = self.Base.text((By.CSS_SELECTOR,'.edit-box>div:nth-child(2)>span:last-child'))
             assert res == option["code"]
-            print(option["code"])
 
 if __name__ == '__main__':
     pytest.main(['-vs'])
