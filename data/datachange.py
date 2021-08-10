@@ -2,7 +2,7 @@
 import xlrd
 def opxlrd(xlsfile=None):
     dalist = []
-    book = xlrd.open_workbook('../data/data.xls')
+    book = xlrd.open_workbook("\Test_UIpython\data\data.xls")
     # 获得excel中的表1
     sheet = book.sheet_by_index(0)
     # 获得行数
