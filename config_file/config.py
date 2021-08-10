@@ -4,7 +4,7 @@ class configs:
         self.cf = configparser.ConfigParser()
     def redcon(self,name:str)->list:
         try:
-            filename = self.cf.read("\Test_UIpython\config_file\config.ini")
+            filename = self.cf.read("../config_file/config.ini")
             print(filename)
             value = self.cf.get(name,"url")
             return value
