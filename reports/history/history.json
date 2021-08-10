@@ -1,0 +1,41 @@
+{
+  "cf8d7c333f9cbe5dc13509dd9e335342" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "a450c0c4c917d96",
+      "reportUrl" : "http://localhost:8081/job/allure-6/4/allure/#testresult/a450c0c4c917d96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628565834870,
+        "stop" : 1628565845439,
+        "duration" : 10569
+      }
+    }, {
+      "uid" : "b48425127f24bd0",
+      "reportUrl" : "http://localhost:8081/job/allure-6/3/allure/#testresult/b48425127f24bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628562941353,
+        "stop" : 1628562952829,
+        "duration" : 11476
+      }
+    }, {
+      "uid" : "42b04d9b98314e1c",
+      "reportUrl" : "http://localhost:8081/job/allure-6/1/allure/#testresult/42b04d9b98314e1c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome=92.0.4515.131)",
+      "time" : {
+        "start" : 1628562620679,
+        "stop" : 1628562626420,
+        "duration" : 5741
+      }
+    } ]
+  }
+}

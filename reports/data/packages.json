@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Testcase.test_one",
+    "children" : [ {
+      "name" : "账户或密码错误",
+      "uid" : "a450c0c4c917d96",
+      "parentUid" : "d3250a7a2cf1b3f20938945b1d8d4a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628565834870,
+        "stop" : 1628565845439,
+        "duration" : 10569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Testcase.test_one"
+  } ]
+}

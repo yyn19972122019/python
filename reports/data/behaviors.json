@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "编辑页面",
+    "children" : [ {
+      "name" : "账户或密码错误",
+      "uid" : "a450c0c4c917d96",
+      "parentUid" : "3e6ebb7283af629a2041f3f44bb2b5ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628565834870,
+        "stop" : 1628565845439,
+        "duration" : 10569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e6ebb7283af629a2041f3f44bb2b5ef"
+  } ]
+}

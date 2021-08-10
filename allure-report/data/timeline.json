@@ -4,91 +4,134 @@
   "children" : [ {
     "name" : "SK-20210625NVCA",
     "children" : [ {
-      "name" : "9652-MainThread",
+      "name" : "10804-MainThread",
       "children" : [ {
-        "name" : "test_02",
-        "uid" : "6c9f3f369a47e7a7",
-        "parentUid" : "c4a0fe688733dae059b383098e884783",
+        "name" : "账户或密码错误",
+        "uid" : "989234d7f7364ef4",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
         "status" : "passed",
         "time" : {
-          "start" : 1627609557472,
-          "stop" : 1627609571973,
-          "duration" : 14501
+          "start" : 1628567827238,
+          "stop" : 1628567838074,
+          "duration" : 10836
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_01",
-        "uid" : "c6113735cb513b65",
-        "parentUid" : "c4a0fe688733dae059b383098e884783",
+        "name" : "新增荣誉-荣誉名称信息错误",
+        "uid" : "50a057321082b08",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
         "status" : "passed",
         "time" : {
-          "start" : 1627609544660,
-          "stop" : 1627609557466,
-          "duration" : 12806
+          "start" : 1628567886604,
+          "stop" : 1628567912217,
+          "duration" : 25613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'one': '', 'two': 22, 'three': 33, 'code': '!未设置荣誉名称'}" ]
+      }, {
+        "name" : "新增荣誉-荣誉名称信息错误",
+        "uid" : "1157ac12f970a157",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628567912224,
+          "stop" : 1628567938110,
+          "duration" : 25886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'one': '   ', 'two': 22, 'three': 33, 'code': '!未设置荣誉名称'}" ]
+      }, {
+        "name" : "新增荣誉-荣誉等级错误",
+        "uid" : "b7ea96396bf28735",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628567938121,
+          "stop" : 1628567964128,
+          "duration" : 26007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'one': 11, 'two': '', 'three': 33, 'code': '!未输入荣誉等级'}" ]
+      }, {
+        "name" : "登录成功",
+        "uid" : "f186f69531fa78b7",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628567847926,
+          "stop" : 1628567857765,
+          "duration" : 9839
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_03",
-        "uid" : "f5e97311ea4488c3",
-        "parentUid" : "c4a0fe688733dae059b383098e884783",
+        "name" : "账号或密码长度不够",
+        "uid" : "dbad434deb4ce480",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
         "status" : "passed",
         "time" : {
-          "start" : 1627609571978,
-          "stop" : 1627609587102,
-          "duration" : 15124
+          "start" : 1628567838088,
+          "stop" : 1628567847916,
+          "duration" : 9828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增教师荣誉成功",
+        "uid" : "2002c9d270cd4001",
+        "parentUid" : "677df5a273a1710db6a57afd685b3db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628567857768,
+          "stop" : 1628567886601,
+          "duration" : 28833
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c4a0fe688733dae059b383098e884783"
+      "uid" : "677df5a273a1710db6a57afd685b3db7"
     }, {
-      "name" : "2672-MainThread",
+      "name" : "23568-MainThread",
       "children" : [ {
-        "name" : "test_03",
-        "uid" : "b0514ba9327a7d88",
-        "parentUid" : "9b99a826c1be72d7675fa379a484a2da",
+        "name" : "账户或密码错误",
+        "uid" : "6a57b94f5807d1d6",
+        "parentUid" : "4e70a3b6558892cd30b0fcf2ffc5e977",
         "status" : "passed",
         "time" : {
-          "start" : 1627610005381,
-          "stop" : 1627610020059,
-          "duration" : 14678
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "f1dd7ee67cbb438",
-        "parentUid" : "9b99a826c1be72d7675fa379a484a2da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627609991055,
-          "stop" : 1627610005376,
-          "duration" : 14321
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "d83cdad8b91b600a",
-        "parentUid" : "9b99a826c1be72d7675fa379a484a2da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627609978784,
-          "stop" : 1627609991050,
-          "duration" : 12266
+          "start" : 1628562941353,
+          "stop" : 1628562952829,
+          "duration" : 11476
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9b99a826c1be72d7675fa379a484a2da"
+      "uid" : "4e70a3b6558892cd30b0fcf2ffc5e977"
+    }, {
+      "name" : "25264-MainThread",
+      "children" : [ {
+        "name" : "账户或密码错误",
+        "uid" : "aa2fad71da9c9392",
+        "parentUid" : "ff3a763eab9689966936d5202e58ec2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628565834870,
+          "stop" : 1628565845439,
+          "duration" : 10569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff3a763eab9689966936d5202e58ec2c"
     } ],
     "uid" : "56b0d03531809cb65d9a653502800fc2"
   } ]

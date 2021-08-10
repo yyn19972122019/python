@@ -1,0 +1,153 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=21096, tid=0x0000000000005228
+#
+# JRE version:  (8.0_121-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.121-b13 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000027e4000):  JavaThread "Unknown thread" [_thread_in_vm, id=21032, stack(0x0000000002330000,0x0000000002430000)]
+
+Stack: [0x0000000002330000,0x0000000002430000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000027e4000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=21032, stack(0x0000000002330000,0x0000000002430000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 36864K, used 634K [0x00000000d6f00000, 0x00000000d9800000, 0x0000000100000000)
+  eden space 31744K, 2% used [0x00000000d6f00000,0x00000000d6f9eb90,0x00000000d8e00000)
+  from space 5120K, 0% used [0x00000000d9300000,0x00000000d9300000,0x00000000d9800000)
+  to   space 5120K, 0% used [0x00000000d8e00000,0x00000000d8e00000,0x00000000d9300000)
+ ParOldGen       total 84992K, used 0K [0x0000000084c00000, 0x0000000089f00000, 0x00000000d6f00000)
+  object space 84992K, 0% used [0x0000000084c00000,0x0000000084c00000,0x0000000089f00000)
+ Metaspace       used 770K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000011d90000,0x0000000012170000] byte_map_base: 0x000000001196a000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000062b9b6d0
+ Begin Bits: [0x0000000012810000, 0x00000000146e0000)
+ End Bits:   [0x00000000146e0000, 0x00000000165b0000)
+
+Polling page: 0x00000000003f0000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x00000000029d0000, 0x0000000002c40000, 0x00000000119d0000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.022 loading class java/lang/Short
+Event: 0.022 loading class java/lang/Short done
+Event: 0.022 loading class java/lang/Integer
+Event: 0.022 loading class java/lang/Integer done
+Event: 0.022 loading class java/lang/Long
+Event: 0.023 loading class java/lang/Long done
+Event: 0.023 loading class java/lang/NullPointerException
+Event: 0.023 loading class java/lang/NullPointerException done
+Event: 0.023 loading class java/lang/ArithmeticException
+Event: 0.023 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff7ce5e0000 - 0x00007ff7ce617000 	D:\jdk\bin\java.exe
+0x00007fff5bfa0000 - 0x00007fff5c190000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007fff5afc0000 - 0x00007fff5b072000 	C:\Windows\System32\KERNEL32.DLL
+0x00007fff591b0000 - 0x00007fff59453000 	C:\Windows\System32\KERNELBASE.dll
+0x00007fff5aeb0000 - 0x00007fff5af53000 	C:\Windows\System32\ADVAPI32.dll
+0x00007fff5a900000 - 0x00007fff5a99e000 	C:\Windows\System32\msvcrt.dll
+0x00007fff5be40000 - 0x00007fff5bed7000 	C:\Windows\System32\sechost.dll
+0x00007fff5a9a0000 - 0x00007fff5aac0000 	C:\Windows\System32\RPCRT4.dll
+0x00007fff5aaf0000 - 0x00007fff5ac84000 	C:\Windows\System32\USER32.dll
+0x00007fff59650000 - 0x00007fff59671000 	C:\Windows\System32\win32u.dll
+0x00007fff5a050000 - 0x00007fff5a076000 	C:\Windows\System32\GDI32.dll
+0x00007fff59e50000 - 0x00007fff59fe4000 	C:\Windows\System32\gdi32full.dll
+0x00007fff595b0000 - 0x00007fff5964e000 	C:\Windows\System32\msvcp_win.dll
+0x00007fff58fe0000 - 0x00007fff590da000 	C:\Windows\System32\ucrtbase.dll
+0x00007fff47a00000 - 0x00007fff47c85000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.592_none_e6c0b1911312be02\COMCTL32.dll
+0x00007fff5b380000 - 0x00007fff5b6b6000 	C:\Windows\System32\combase.dll
+0x00007fff59130000 - 0x00007fff591b0000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007fff5aac0000 - 0x00007fff5aaee000 	C:\Windows\System32\IMM32.DLL
+0x0000000062c20000 - 0x0000000062cf2000 	D:\jdk\jre\bin\msvcr100.dll
+0x0000000062380000 - 0x0000000062c1b000 	D:\jdk\jre\bin\server\jvm.dll
+0x00007fff5b740000 - 0x00007fff5b748000 	C:\Windows\System32\PSAPI.DLL
+0x00007fff46870000 - 0x00007fff46879000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007fff45f00000 - 0x00007fff45f0a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007fff5b080000 - 0x00007fff5b0ef000 	C:\Windows\System32\WS2_32.dll
+0x00007fff55060000 - 0x00007fff55084000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007fff54f20000 - 0x00007fff54f4d000 	C:\Windows\SYSTEM32\winmmbase.dll
+0x00007fff59680000 - 0x00007fff596ca000 	C:\Windows\System32\cfgmgr32.dll
+0x0000000062370000 - 0x000000006237f000 	D:\jdk\jre\bin\verify.dll
+0x0000000062340000 - 0x0000000062369000 	D:\jdk\jre\bin\java.dll
+0x0000000062320000 - 0x0000000062336000 	D:\jdk\jre\bin\zip.dll
+
+VM Arguments:
+java_command: io.qameta.allure.CommandLine generate ./allure-results -o ./reports
+java_class_path (initial): D:\Test_UIpython\allure-2.14.0\lib\allure-commandline-2.14.0.jar;D:\Test_UIpython\allure-2.14.0\lib\jcommander-1.81.jar;D:\Test_UIpython\allure-2.14.0\lib\allure-generator-2.14.0.jar;D:\Test_UIpython\allure-2.14.0\lib\jackson-dataformat-xml-2.12.3.jar;D:\Test_UIpython\allure-2.14.0\lib\jackson-module-jaxb-annotations-2.12.3.jar;D:\Test_UIpython\allure-2.14.0\lib\jackson-annotations-2.12.3.jar;D:\Test_UIpython\allure-2.14.0\lib\jackson-core-2.12.3.jar;D:\Test_UIpython\allure-2.14.0\lib\jackson-dataformat-yaml-2.12.3.jar;D:\Test_UIpython\allure-2.14.0\lib\allure-plugin-api-2.14.0.jar;D:\Test_UIpython\allure-2.14.0\lib\allure-model-2.13.0.jar;D:\Test_UIpython\allure-2.14.0\lib\jackson-databind-2.12.3.jar;D:\Test_UIpython\allure-2.14.0\lib\commons-io-2.8.0.jar;D:\Test_UIpython\allure-2.14.0\lib\jetty-server-9.4.20.v20190813.jar;D:\Test_UIpython\allure-2.14.0\lib\slf4j-log4j12-1.7.28.jar;D:\Test_UIpython\allure-2.14.0\lib\snakeyaml-1.27.jar;D:\Test_UIpython\allure-2.14.0\lib\javax.servlet-api-3.1.0.jar;D:\Test_UIpython\allure-2.14.0\lib\jetty-http-9.4.20.v20190813.jar;D:\Test_UIpython\allure-2.14.0\lib\jetty-io-9.4.20.v20190813.jar;D:\Test_UIpython\allure-2.14.0\lib\allure1-model-1.0.jar;D:\Test_UIpython\allure-2.14.0\lib\slf4j-api-1.7.28.jar;D:\Test_UIpython\allure-2.14.0\lib\log4j-1.2.17.jar;D:\Test_UIpython\allure-2.14.0\lib\jaxb-api-2.3.1.jar;D:\Test_UIpython\allure-2.14.0\lib\httpclient-4.5.13.jar;D:\Test_UIpython\allure-2.14.0\lib\tika-core-1.26.jar;D:\Test_UIpython\allure-2.14.0\lib\freemarker-2.3.31.jar;D:\Test_UIpython\allure-2.14.0\lib\jetty-util-9.4.20.v20190813.jar;D:\Test_UIpython\allure-2.14.0\lib\opencsv-4.6.jar;D:\Test_UIpython\allure-2.14.0\lib\flexmark-0.62.2.jar;D:\Test_UIpython\allure-2.14.0\lib\woodstox-core-6.2.4.jar;D:\Test_UIpython\allure-2.14.0\lib\stax2-api-4.2.1.jar;D:\Test_UIpython\allure-2.14.0\lib\javax.activation-api-1.2.0.jar;D:\Test_UIpython\allure-2.14.0\lib\properties-2.0.RC5.jar;D:\Test_UIpython\allure-2.14
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\jdk
+PATH=D:\jdk/bin;D:\jdk/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;"C:\Windows\system32;C:\Windows;";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"D:\jdk\bin;D:\jdk\jre\bin;";D:\gitbash\Git\cmd;D:\Test_UIpython\allure-2.14.0\bin;c:\windows\system32;D:\jenck;D:\python\Scripts\;D:\python\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 18362 (10.0.18362.329)
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 61 stepping 4, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8077236k(1059452k free), swap 8077236k(5460k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.121-b13) for windows-amd64 JRE (1.8.0_121-b13), built on Dec 12 2016 18:21:36 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Aug 10 10:30:31 2021
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

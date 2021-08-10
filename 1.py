@@ -36,9 +36,10 @@
 #    # 辅助函数的包装过程,无须调用隐藏掉了已经,仅仅调用主函数就好了
 #    c = pt("d")
 #    print(c)
-class a:
-    url = 1
-    def dd(self):
-        print(self.url)
-c = a()
-c.dd()
+# a = 1
+# def b():
+#     global a
+#     a = 2
+#     print(a)
+# b()
+# print(a)

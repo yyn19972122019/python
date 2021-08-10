@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Testcase",
+    "children" : [ {
+      "name" : "test_one",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "账户或密码错误",
+          "uid" : "a450c0c4c917d96",
+          "parentUid" : "6f364a8480843b2735ccb2d70a5839fe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628565834870,
+            "stop" : 1628565845439,
+            "duration" : 10569
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6f364a8480843b2735ccb2d70a5839fe"
+      } ],
+      "uid" : "616588db25988899d0a628d3c0c363dc"
+    } ],
+    "uid" : "1bb8f4d43a47eae7dbcd78afc31ab232"
+  } ]
+}

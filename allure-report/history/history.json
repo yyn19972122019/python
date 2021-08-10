@@ -1,55 +1,138 @@
 {
+  "31d1bf0527c4a3d065e7c1db61204838" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7ea96396bf28735",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/b7ea96396bf28735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628567938121,
+        "stop" : 1628567964128,
+        "duration" : 26007
+      }
+    } ]
+  },
   "e15b800d7b262cf98239a48491a42620" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "f1dd7ee67cbb438",
+      "uid" : "dbad434deb4ce480",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/dbad434deb4ce480",
       "status" : "passed",
       "time" : {
-        "start" : 1627609991055,
-        "stop" : 1627610005376,
-        "duration" : 14321
-      }
-    }, {
-      "uid" : "7392d32f21f0a4a9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1627609557472,
-        "stop" : 1627609571973,
-        "duration" : 14501
+        "start" : 1628567838088,
+        "stop" : 1628567847916,
+        "duration" : 9828
       }
     } ]
   },
   "cf8d7c333f9cbe5dc13509dd9e335342" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 2
+      "total" : 5
     },
     "items" : [ {
-      "uid" : "d83cdad8b91b600a",
+      "uid" : "989234d7f7364ef4",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/989234d7f7364ef4",
       "status" : "passed",
       "time" : {
-        "start" : 1627609978784,
-        "stop" : 1627609991050,
-        "duration" : 12266
+        "start" : 1628567827238,
+        "stop" : 1628567838074,
+        "duration" : 10836
       }
     }, {
-      "uid" : "dd40d0e0e8e55155",
+      "uid" : "9bc7fd87f493149a",
+      "reportUrl" : "http://localhost:8081/job/allure-6/5/allure/#testresult/9bc7fd87f493149a",
       "status" : "passed",
       "time" : {
-        "start" : 1627609544660,
-        "stop" : 1627609557466,
-        "duration" : 12806
+        "start" : 1628565834870,
+        "stop" : 1628565845439,
+        "duration" : 10569
+      }
+    }, {
+      "uid" : "5346b1e71986df52",
+      "reportUrl" : "http://localhost:8081/job/allure-6/4/allure/#testresult/5346b1e71986df52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628562941353,
+        "stop" : 1628562952829,
+        "duration" : 11476
+      }
+    }, {
+      "uid" : "b48425127f24bd0",
+      "reportUrl" : "http://localhost:8081/job/allure-6/3/allure/#testresult/b48425127f24bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628562941353,
+        "stop" : 1628562952829,
+        "duration" : 11476
+      }
+    }, {
+      "uid" : "42b04d9b98314e1c",
+      "reportUrl" : "http://localhost:8081/job/allure-6/1/allure/#testresult/42b04d9b98314e1c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome=92.0.4515.131)",
+      "time" : {
+        "start" : 1628562620679,
+        "stop" : 1628562626420,
+        "duration" : 5741
+      }
+    } ]
+  },
+  "c0a85f81021b5b1bc94ec3aaabef9871" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1157ac12f970a157",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/1157ac12f970a157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628567912224,
+        "stop" : 1628567938110,
+        "duration" : 25886
+      }
+    } ]
+  },
+  "7e0fa7607d0bdaca3b726da396bb7303" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50a057321082b08",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/50a057321082b08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628567886604,
+        "stop" : 1628567912217,
+        "duration" : 25613
       }
     } ]
   },
@@ -58,25 +141,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "b0514ba9327a7d88",
+      "uid" : "f186f69531fa78b7",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/f186f69531fa78b7",
       "status" : "passed",
       "time" : {
-        "start" : 1627610005381,
-        "stop" : 1627610020059,
-        "duration" : 14678
+        "start" : 1628567847926,
+        "stop" : 1628567857765,
+        "duration" : 9839
       }
-    }, {
-      "uid" : "8fe100ad45f45ec2",
+    } ]
+  },
+  "25cf82e036bab11911227dcd38e86d93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2002c9d270cd4001",
+      "reportUrl" : "http://localhost:8081/job/allure-6/6/allure/#testresult/2002c9d270cd4001",
       "status" : "passed",
       "time" : {
-        "start" : 1627609571978,
-        "stop" : 1627609587102,
-        "duration" : 15124
+        "start" : 1628567857768,
+        "stop" : 1628567886601,
+        "duration" : 28833
       }
     } ]
   }

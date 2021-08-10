@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SK-20210625NVCA",
+    "children" : [ {
+      "name" : "25264-MainThread",
+      "children" : [ {
+        "name" : "账户或密码错误",
+        "uid" : "a450c0c4c917d96",
+        "parentUid" : "ff3a763eab9689966936d5202e58ec2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628565834870,
+          "stop" : 1628565845439,
+          "duration" : 10569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff3a763eab9689966936d5202e58ec2c"
+    }, {
+      "name" : "23568-MainThread",
+      "children" : [ {
+        "name" : "账户或密码错误",
+        "uid" : "c61a37c67ff25cae",
+        "parentUid" : "4e70a3b6558892cd30b0fcf2ffc5e977",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628562941353,
+          "stop" : 1628562952829,
+          "duration" : 11476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e70a3b6558892cd30b0fcf2ffc5e977"
+    } ],
+    "uid" : "56b0d03531809cb65d9a653502800fc2"
+  } ]
+}
