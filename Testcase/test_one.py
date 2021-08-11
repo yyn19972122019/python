@@ -16,13 +16,13 @@ class TestLogin:
         cls.login = LoginPage(cls.drvier)
         cls.index = IndexPage(cls.drvier)
         cls.Base = BasePage(cls.drvier)
-        # cls.data = list(datachange.opxlrd())
+        cls.data = list(datachange.opxlrd())
     def teardown_class(cls)->None:
         sleep(3)
         cls.drvier.quit()
     @allure.title("账户或密码错误")
     def test_01(self):
-        user, pwd, hope = list(datachange.opxlrd())[1].values()
+        user, pwd, hope = self.data[1].values()
         self.login.login(user,pwd)
         text = (By.CLASS_NAME,"form-tip")
         res = self.Base.text(text)
